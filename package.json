@@ -1,0 +1,37 @@
+{
+  "name": "koapro",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon bin/www",
+    "dev": "./node_modules/.bin/nodemon bin/www",
+    "prd": "pm2 start bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "bcryptjs": "^2.4.3",
+    "debug": "^4.1.1",
+    "dotenv": "^16.4.5",
+    "ioredis": "^5.4.1",
+    "jsonwebtoken": "^9.0.2",
+    "koa": "^2.7.0",
+    "koa-body": "^6.0.1",
+    "koa-convert": "^1.2.0",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.2.0",
+    "koa-onerror": "^4.1.0",
+    "koa-parameter": "^3.0.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.2.0",
+    "mysql2": "^3.9.4",
+    "nodemailer": "^6.9.13",
+    "pug": "^2.0.3",
+    "sequelize": "^6.37.2",
+    "useragent": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
