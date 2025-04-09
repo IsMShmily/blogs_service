@@ -1,3 +1,7 @@
+<div align="right">
+  <a href="README.md">English</a> | <a href="README.cn.md">中文</a>
+</div>
+
 # Nodejs + Koa Blogs Server
 
 Blog server code, using the following technology stacks **_Nodejs + Koa + JWT + Sequelize + MySQL + Redis + docker-compose ..._**
@@ -20,27 +24,27 @@ Blog server code, using the following technology stacks **_Nodejs + Koa + JWT + 
 
 ---
 
-### project tree
+### Project Structure
 
 ```
 ├─ bin
 │  └─ www
-├─ config                   # Configuration of environment variables
-├─ constant                 # Constant folder
-├─ controller               # Interface Data transmission layer
+├─ config                   # Environment variables configuration
+├─ constant                 # Constants folder
+├─ controller               # Interface data transmission layer
 ├─ db                       # Database configuration
 │  ├─ redis.js
 │  └─ seq.js
 ├─ docker-compose.yml
 ├─ err_handler.js
-├─ middleware               # Middleware file
-├─ model                    # Model layer, database table
+├─ middleware               # Middleware files
+├─ model                    # Model layer, database tables
 ├─ package.json
 ├─ pnpm-lock.yaml
 ├─ public
 ├─ routes                   # Interface layer
-├─ service                  # Operate the data layer
-├─ uploads                  # Picture folder
+├─ service                  # Data operation layer
+├─ uploads                  # Image folder
 ├─ utils
 └─ views
 ├─ .env
@@ -48,14 +52,13 @@ Blog server code, using the following technology stacks **_Nodejs + Koa + JWT + 
 ├─ LICENSE
 ├─ ReadMe.md
 ├─ app.js
-
 ```
 
 ---
 
-### start up
+### Getting Started
 
-By default, your computer has installed Nodejs Vue MongoDB and code editor and other environments. Please refer to the configuration of my environment:
+By default, your computer should have Nodejs, Vue, MongoDB, and a code editor installed. Please refer to my environment configuration:
 
 ```
 Nodejs: v18.18.0
@@ -67,32 +70,32 @@ mysql: v8.3.0
 git clone https://github.com/IsMShmily/blogs_server.git
 ```
 
-| Order        | Comment                    |
-| ------------ | -------------------------- |
-| pnpm i       | Download dependencies      |
-| pnpm run dev | Start the test environment |
+| Command      | Description               |
+| ------------ | ------------------------- |
+| pnpm i       | Install dependencies      |
+| pnpm run dev | Start development server  |
 
 ---
 
-### Next.js series
+### Next.js Series
 
-- [初始 Nextjs 15](https://blog.csdn.net/shmilynn_/article/details/137891060?spm=1001.2014.3001.5502)
+- [Getting Started with Nextjs 15](https://blog.csdn.net/shmilynn_/article/details/137891060?spm=1001.2014.3001.5502)
 - [Nextjs15 - App Router](https://blog.csdn.net/shmilynn_/article/details/137904724?spm=1001.2014.3001.5502)
-- [Nextjs15 - Route Handlers 的使用](https://blog.csdn.net/shmilynn_/article/details/146515380?spm=1001.2014.3001.5501)
-- [Nextjs15 - middleware 的使用](https://blog.csdn.net/shmilynn_/article/details/146543636?spm=1001.2014.3001.5501)
-- [Nextjs15 - 什么是 CSR、SSR、SSG 和 ISR](https://blog.csdn.net/shmilynn_/article/details/146544013?spm=1001.2014.3001.5501)
-- [Nextjs15 - 服务端组件(RSC)与客服端组件](https://blog.csdn.net/shmilynn_/article/details/146572565?spm=1001.2014.3001.5501)
-- [Nextjs15 - Client Component 客户端组件](https://blog.csdn.net/shmilynn_/article/details/146582184?spm=1001.2014.3001.5501)
-- [Nextjs15 - Streaming 流式传输是什么？](https://blog.csdn.net/shmilynn_/article/details/146582094?spm=1001.2014.3001.5501)
-- [Nextjs15 - 服务器渲染策略](https://blog.csdn.net/shmilynn_/article/details/146582209?spm=1001.2014.3001.5501)
+- [Nextjs15 - Using Route Handlers](https://blog.csdn.net/shmilynn_/article/details/146515380?spm=1001.2014.3001.5501)
+- [Nextjs15 - Using Middleware](https://blog.csdn.net/shmilynn_/article/details/146543636?spm=1001.2014.3001.5501)
+- [Nextjs15 - What are CSR, SSR, SSG and ISR](https://blog.csdn.net/shmilynn_/article/details/146544013?spm=1001.2014.3001.5501)
+- [Nextjs15 - Server Components (RSC) vs Client Components](https://blog.csdn.net/shmilynn_/article/details/146572565?spm=1001.2014.3001.5501)
+- [Nextjs15 - Client Components](https://blog.csdn.net/shmilynn_/article/details/146582184?spm=1001.2014.3001.5501)
+- [Nextjs15 - What is Streaming?](https://blog.csdn.net/shmilynn_/article/details/146582094?spm=1001.2014.3001.5501)
+- [Nextjs15 - Server Rendering Strategies](https://blog.csdn.net/shmilynn_/article/details/146582209?spm=1001.2014.3001.5501)
 
 ---
 
-### TypeScript gymnastics series
+### TypeScript Gymnastics Series
 
-- [TS 为什么被叫做类型体操](https://blog.csdn.net/shmilynn_/article/details/137981157?spm=1001.2014.3001.5502)
-- [Ts 支持哪些类型和类型运算(上)](https://blog.csdn.net/shmilynn_/article/details/137996269?spm=1001.2014.3001.5502)
-- [Ts 支持哪些类型和类型运算(下)](https://blog.csdn.net/shmilynn_/article/details/138050067?spm=1001.2014.3001.55022)
-- [Ts 类型体操详讲 之 extends infer](https://blog.csdn.net/shmilynn_/article/details/138072708?spm=1001.2014.3001.5502)
+- [Why is TS Called Type Gymnastics](https://blog.csdn.net/shmilynn_/article/details/137981157?spm=1001.2014.3001.5502)
+- [Types and Type Operations in TS (Part 1)](https://blog.csdn.net/shmilynn_/article/details/137996269?spm=1001.2014.3001.5502)
+- [Types and Type Operations in TS (Part 2)](https://blog.csdn.net/shmilynn_/article/details/138050067?spm=1001.2014.3001.55022)
+- [TS Type Gymnastics: Detailed Explanation of extends infer](https://blog.csdn.net/shmilynn_/article/details/138072708?spm=1001.2014.3001.5502)
 
 ---
