@@ -1,5 +1,5 @@
 <div align="right">
-  <a href="README.md">English</a> | <a href="README.cn.md">中文</a>
+  <a href="ReadMe.md">English</a> | <a href="ReadMe.cn.md">中文</a>
 </div>
 
 # Nodejs + Koa Blogs Server
